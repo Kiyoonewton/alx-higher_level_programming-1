@@ -5,4 +5,4 @@ def best_score(a_dictionary):
             if value is max(a_dictionary.value()):
                 return key
         else:
-            return None
+        return None
