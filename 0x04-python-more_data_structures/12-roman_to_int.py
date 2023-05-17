@@ -6,8 +6,8 @@ def roman_to_int(roman_string):
     item = 0
     roman = roman_string
     if type(roman) is not str or len(roman) is 0:
-        return 0
-        for item in range(item, len(roman)):
+            return 0
+    for item in range(item, len(roman)):
             if item < len(roman) - 1\
                 and\
                 roman_dictionary[roman[item]] <\
@@ -15,4 +15,4 @@ def roman_to_int(roman_string):
                 result -= roman_dictionary[roman[item]]
             else:
                 result += roman_dictionary[roman[item]]
-        return result
+    return result
