@@ -9,4 +9,4 @@ def add_attribute(ukp, allot, value):
     """Function that adds a new attribute to an object if it's possible"""
     if not(hasattr(ukp, '__dict__')):
         raise TypeError("can't add new attribute")
-    setattr(cla, allot, value)
+    setattr(ukp, allot, value)
